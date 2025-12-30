@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css">
+
+  </head>
+
+<body class="bg-gradient-to-br from-black via-slate-900 to-black text-white">
+
+<nav
+    class="w-full bg-gradient-to-r from-red-700 via-black to-yellow-300 px-10 py-4 flex items-center justify-between border-b border-gray-800">
+    <div class="text-white text-xl font-bold">SHUBHAM-DEVOPS</div>
+
+    <ul class="flex space-x-8 text-gray-300 text-base font-medium">
+      <li><a href="Home.html" class="hover:text-white transition duration-300">Home</a></li>
+      <li><a href="#" class="hover:text-white transition duration-300">About</a></li>
+      <li><a href="#" class="hover:text-white transition duration-300">Projects</a></li>
+      <li><a href="#" class="hover:text-white transition duration-300">Contact</a></li>
+    </ul>
+  </nav>
+
+<!-- SECTION 1 : HERO -->
+<section class="py-32 px-14">
+  <div class="max-w-6xl mx-auto">
+    <div class="bg-[rgba(255,255,255,0.07)] backdrop-blur-2xl
+                rounded-[48px] p-20
+                border border-blue-600/40
+                hover:shadow-[0_0_35px_rgba(37,99,235,0.5)]
+                hover:scale-[1.02]
+                transition duration-500">
+
+      <h2 class="text-5xl font-extrabold mb-8">
+        <span style="color: aqua;">Hey, I'm Shubham</span>
+      </h2>
+
+      <p class="text-yellow-400 font-semibold text-xl leading-relaxed max-w-3xl">
+        DevOps Engineer crafting
+        secure automated and cloud-native
+        systems using AWS, Docker, Linux and Flask.
+      </p>
+
+      <div class="mt-12 flex gap-6">
+        <button
+          class="px-10 py-4 rounded-full bg-blue-600 text-white font-semibold
+                 hover:bg-yellow-400 hover:text-black
+                 hover:scale-110 transition">
+          Explore Work
+        </button>
+
+        <button
+          class="px-10 py-4 rounded-full bg-blue-600 text-white font-semibold
+                 hover:bg-yellow-400 hover:text-black
+                 hover:scale-110 transition">
+          Hire Me
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--  TECH STACK  -->
+<section class="py-32 px-14 bg-gradient-to-r from-blue-600/10 to-yellow-400/10">
+  <div class="max-w-7xl mx-auto">
+
+    <h2 class="text-5xl font-bold mb-14 border-l-8 border-yellow-400 pl-6">
+      <span style="color: aqua;">Tech Stack</span>
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-12">
+
+      <!-- CARD 1 -->
+       
+      <div class="bg-[rgba(255,255,255,0.07)] backdrop-blur-xl
+                  rounded-[36px] p-10
+                  border border-blue-600/30
+                  hover:shadow-[0_0_35px_rgba(37,99,235,0.5)]
+                  hover:-translate-y-3 transition duration-500">
+
+        <h3 class="text-2xl font-semibold mb-4">Cloud & Infrastructure</h3>
+        <p class="text-gray-400 mb-6">
+          AWS compute, networking, storage & secure architecture.
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="px-4 py-1 rounded-full bg-white/10 border border-white/20 text-sm">AWS</span>
+          <span class="px-4 py-1 rounded-full bg-white/10 border border-white/20 text-sm">VPC</span>
+          <span class="px-4 py-1 rounded-full bg-white/10 border border-white/20 text-sm">EC2</span>
+        </div>
+      </div>
+      
+
+      <!-- CARD 2 -->
+      <div class="bg-[rgba(255,255,255,0.07)] backdrop-blur-xl
+                  rounded-[36px] p-10
+                  border border-yellow-400/40
+                  hover:shadow-[0_0_35px_rgba(250,204,21,0.5)]
+                  hover:-translate-y-3 transition duration-500">
+
+        <h3 class="text-2xl font-semibold mb-4">DevOps & Automation</h3>
+        <p class="text-gray-400 mb-6">
+          CI/CD pipelines, Docker containers & GitHub Actions.
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="px-4 py-1 rounded-full bg-white/10 border border-white/20 text-sm">Docker</span>
+          <span class="px-4 py-1 rounded-full bg-white/10 border border-white/20 text-sm">CI/CD</span>
+          <span class="px-4 py-1 rounded-full bg-white/10 border border-white/20 text-sm">GitHub</span>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="bg-[rgba(255,255,255,0.07)] backdrop-blur-xl
+                  rounded-[36px] p-10
+                  border border-blue-600/30
+                  hover:shadow-[0_0_35px_rgba(37,99,235,0.5)]
+                  hover:-translate-y-3 transition duration-500">
+
+        <h3 class="text-2xl font-semibold mb-4">Backend & Systems</h3>
+        <p class="text-gray-400 mb-6">
+          Flask APIs, Linux servers and Nginx setup.
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="px-4 py-1 rounded-full bg-white/10 border border-white/20 text-sm">Python</span>
+          <span class="px-4 py-1 rounded-full bg-white/10 border border-white/20 text-sm">Flask</span>
+          <span class="px-4 py-1 rounded-full bg-white/10 border border-white/20 text-sm">Linux</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 3 : PROJECTS -->
+<section class="py-32 px-14">
+  <div class="max-w-6xl mx-auto">
+
+    <h2 class="text-5xl font-bold mb-6  border-blue-600 inline-block">
+      Highlighted Projects
+    </h2>
+
+    <p class="text-gray-400 mb-14 text-4xl font-extrabold">
+      <span style="color: aqua;">Practical DevOps implementations and labs.</span>
+    </p>
+
+    <div class="space-y-12">
+
+      <!-- PROJECT 1 -->
+      <div class="bg-[rgba(255,255,255,0.07)] backdrop-blur-xl
+                  rounded-[40px] p-12
+                  border border-yellow-400/40
+                  hover:shadow-[0_0_35px_rgba(250,204,21,0.5)]
+                  hover:translate-x-4 transition duration-500">
+
+        <h3 class="text-2xl font-semibold mb-3 text-green-300">
+          <span style="color: coral;">E-commerce Flask App</span>
+        </h3>
+        <p class="text-gray-400 mb-5">
+          Flask backend containerized with Docker and deployed on AWS EC2
+          inside a secure VPC.
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="px-4 py-1 rounded-full bg-green-500 border border-white/20 text-sm">Flask</span>
+          <span class="px-4 py-1 rounded-full bg-green-500 border border-white/20 text-sm">Docker</span>
+          <span class="px-4 py-1 rounded-full bg-green-500 border border-white/20 text-sm">AWS</span>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="bg-[rgba(255,255,255,0.07)] backdrop-blur-xl
+                  rounded-[42px] p-12
+                  border border-yellow-400/40
+                  hover:shadow-[0_0_35px_rgba(250,204,21,0.5)]
+                  hover:translate-x-4 transition duration-500">
+
+        <h3 class="text-2xl font-semibold mb-3">
+          <span style="color: coral;">DevOps Simulation Lab</span>
+        </h3>
+        <p class="text-gray-400 mb-5">
+          Cloud networking with public/private subnets, routing tables
+          and NAT gateways.
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="px-4 py-1 rounded-full bg-green-500 border border-white/20 text-sm">VPC</span>
+          <span class="px-4 py-1 rounded-full bg-green-500 border border-white/20 text-sm">Subnets</span>
+          <span class="px-4 py-1 rounded-full bg-green-500 border border-white/20 text-sm">Security</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</body>
+
+</html>
