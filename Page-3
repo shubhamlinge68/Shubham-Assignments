@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+    <link rel="stylesheet" href="/src/output.css">
+
+</head>
+<body class="bg-amber-50 text-slate-800">
+
+
+<div class="m-[60px] space-y-14">
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-r from-sky-100 to-indigo-100 rounded-2xl shadow">
+    <nav class="flex justify-between items-center px-10 py-6">
+      <h1 class="text-3xl font-bold text-indigo-700">
+        MY PROJECTS
+      </h1>
+      <ul class="flex gap-6 text-sm font-semibold">
+        <li><a href="#overview" class="hover:text-indigo-600">Overview</a></li>
+        <li><a href="#software" class="hover:text-indigo-600">Software</a></li>
+        <li><a href="#tech" class="hover:text-indigo-600">Technologies</a></li>
+        <li><a href="#courses" class="hover:text-indigo-600">Courses</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- PROJECT OVERVIEW -->
+  <section id="overview" class="bg-white rounded-2xl shadow p-12 text-center">
+    <h2 class="text-4xl font-bold text-sky-700 mb-6">
+      Project Overview
+    </h2>
+
+    <p class="text-slate-600 max-w-4xl mx-auto leading-relaxed mb-6">
+      This student project focuses on modern software development concepts,
+      combining web technologies, programming fundamentals, and emerging
+      technologies such as <span class="font-semibold text-indigo-600">Artificial Intelligence (AI)</span>.
+      The goal of this project is to help students understand how different
+      tools, languages, and frameworks work together in real-world applications.
+    </p>
+
+    <p class="text-slate-600 max-w-4xl mx-auto leading-relaxed">
+      The project includes frontend design using <span class="font-semibold">HTML, CSS, and Tailwind CSS</span>,
+      logical implementation using <span class="font-semibold">JavaScript and C/C++</span>,
+      and an introduction to <span class="font-semibold text-emerald-600">AI concepts</span>
+      such as automation, intelligent systems, and data-driven decision making.
+    </p>
+  </section>
+
+  <!-- SOFTWARE SECTION -->
+  <section id="software">
+    <h3 class="text-3xl font-semibold text-indigo-700 mb-8">
+      Software Tools Used
+    </h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-rose-50 p-6 rounded-xl shadow hover:shadow-xl hover:-translate-y-2 transition">
+        <h4 class="text-xl font-bold mb-2 text-rose-700">VS Code</h4>
+        <p class="text-sm text-slate-600">
+          Used for writing, debugging, and managing source code efficiently.
+        </p>
+      </div>
+
+      <div class="bg-emerald-50 p-6 rounded-xl shadow hover:shadow-xl hover:-translate-y-2 transition">
+        <h4 class="text-xl font-bold mb-2 text-emerald-700">Git & GitHub</h4>
+        <p class="text-sm text-slate-600">
+          Version control system for tracking changes and collaboration.
+        </p>
+      </div>
+
+      <div class="bg-sky-50 p-6 rounded-xl shadow hover:shadow-xl hover:-translate-y-2 transition">
+        <h4 class="text-xl font-bold mb-2 text-sky-700">Node.js</h4>
+        <p class="text-sm text-slate-600">
+          Runtime environment used for backend logic and tools.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="tech" class="bg-gradient-to-r from-emerald-50 to-cyan-50 rounded-2xl p-12">
+    <h3 class="text-3xl font-semibold text-emerald-700 mb-8">
+      Technologies & AI Concepts
+    </h3>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="bg-white p-5 rounded-lg text-center hover:bg-emerald-100 transition">
+        <h4 class="font-bold">Web Development</h4>
+        <p class="text-sm text-slate-500">Frontend & UI Design</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-lg text-center hover:bg-emerald-100 transition">
+        <h4 class="font-bold">Artificial Intelligence</h4>
+        <p class="text-sm text-slate-500">Smart systems & automation</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-lg text-center hover:bg-emerald-100 transition">
+        <h4 class="font-bold">Data Handling</h4>
+        <p class="text-sm text-slate-500">Basic data processing</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-lg text-center hover:bg-emerald-100 transition">
+        <h4 class="font-bold">Problem Solving</h4>
+        <p class="text-sm text-slate-500">Logic & algorithms</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES SECTION -->
+  <section id="courses">
+    <h3 class="text-3xl font-semibold text-indigo-700 mb-8">
+      Courses Included
+    </h3>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-violet-50 rounded-xl shadow p-6 hover:shadow-xl transition">
+        <h4 class="font-bold mb-2 text-violet-700">Web Development</h4>
+        <p class="text-sm text-slate-600 mb-4">
+          Covers responsive design, layouts, forms, and modern UI practices.
+        </p>
+        <a href="#popup1" class="text-violet-600 hover:underline">View Details</a>
+      </div>
+
+      <div class="bg-orange-50 rounded-xl shadow p-6 hover:shadow-xl transition">
+        <h4 class="font-bold mb-2 text-orange-700">AI & Programming Basics</h4>
+        <p class="text-sm text-slate-600 mb-4">
+          Introduction to AI concepts, logic building, and programming basics.
+        </p>
+        <a href="#popup2" class="text-orange-600 hover:underline">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="popup1" class="fixed inset-0 bg-black/40 flex items-center justify-center scale-0 target:scale-100 transition">
+    <div class="bg-white p-6 rounded-xl w-80 text-center">
+      <h4 class="font-bold mb-3">Web Development</h4>
+      <p class="text-sm text-slate-600 mb-4">
+        Focus on frontend UI, Tailwind CSS, and real-world projects.
+      </p>
+      <a href="#" class="text-red-500 font-medium">Close</a>
+    </div>
+  </div>
+
+  <div id="popup2" class="fixed inset-0 bg-black/40 flex items-center justify-center scale-0 target:scale-100 transition">
+    <div class="bg-white p-6 rounded-xl w-80 text-center">
+      <h4 class="font-bold mb-3">AI & Programming</h4>
+      <p class="text-sm text-slate-600 mb-4">
+        Learn basics of AI, automation, and coding logic.
+      </p>
+      <a href="#" class="text-red-500 font-medium">Close</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-sm text-slate-500 pt-10">
+    © 2026 Student Project | Designed using Tailwind CSS
+  </footer>
+
+</div>
+
+    
+</body>
+</html>
