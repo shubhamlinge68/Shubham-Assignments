@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page-1</title>
+    <link rel="stylesheet" href="/src/output.css">
+
+  </head>
+
+<body class="min-h-screen bg-gradient-to-br from-blue-900 via-blue-700 to-yellow-500 flex items-center justify-center p-6">
+
+  
+  <div class="w-full max-w-4xl bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-8 text-white">
+
+    
+   
+    <!--PERSONAL INFORMATION  -->
+<section id="page1" class="space-y-6">
+  <h2 class="text-3xl font-bold border-b border-yellow-400 pb-2">
+    Personal Information
+  </h2>
+
+  <div class="grid md:grid-cols-2 gap-6">
+
+    <input
+      type="text"
+      value="Shubham Linge"
+      readonly
+      class="p-3 rounded-lg bg-white/20 transition
+             focus:outline-none focus:ring-2 cursor-not-allowed hover:scale-105 transition"
+    >
+
+    <input
+      type="email"
+      value="shubhamlinge123@gmail.com"
+      readonly
+      class="p-3 rounded-lg bg-white/20 transition hover:scale-105 transition
+             focus:outline-none focus:ring-2 cursor-not-allowed"
+    >
+
+    <input
+      type="text"
+      value="+91 98765 43210"
+      readonly
+      class="p-3 rounded-lg bg-white/20 transition hover:scale-105 transition
+             focus:outline-none focus:ring-2 cursor-not-allowed"
+    >
+
+    <input
+      type="text"
+      value="Sangli, Maharashtra"
+      readonly
+      class="p-3 rounded-lg bg-white/20 transition hover:scale-105 transition
+             focus:outline-none focus:ring-2 cursor-not-allowed"
+    >
+  </div>
+
+  <textarea
+    rows="4"
+    readonly
+    class="w-full p-4 rounded-lg bg-white/20 transition hover:scale-105 transition
+           focus:outline-none focus:ring-2 cursor-not-allowed"
+  >
+A passionate software enthusiast with strong interest in web development, UI/UX design, and modern technologies. Skilled in HTML, CSS, Tailwind CSS, JavaScript, and continuously learning new frameworks.
+  </textarea>
+</section>
+
+    
+    <section id="page2" class="space-y-6 mt-16">
+      <h2 class="text-3xl font-bold border-b border-yellow-400 pb-2">Qualifications</h2>
+
+      <div class="space-y-4">
+        <div class="p-4 rounded-xl bg-blue-800 transition hover:scale-105 transition">
+          <h3 class="text-xl font-semibold">Bachelor Degree</h3>
+          <p>Computer Science / Information Technology</p>
+        </div>
+
+        <div class="p-4 rounded-xl bg-blue-800 transition hover:scale-105 transition">
+          <h3 class="text-xl font-semibold">Master Degree</h3>
+          <p>Software Engineering / Data Science</p>
+        </div>
+
+        <div class="p-4 rounded-xl bg-blue-800 transition hover:scale-105 transition">
+          <h3 class="text-xl font-semibold">Certifications</h3>
+          <p>Web Development, Cloud Computing, DevOps</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="page3" class="space-y-6 mt-16">
+      <h2 class="text-3xl font-bold border-b border-yellow-400 pb-2">Hobbies & About</h2>
+
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="p-5 rounded-xl bg-white/20 hover:scale-105 transition">
+          🎵 Music
+        </div>
+        <div class="p-5 rounded-xl bg-white/20 hover:scale-105 transition">
+          📷 Photography
+        </div>
+        <div class="p-5 rounded-xl bg-white/20 hover:scale-105 transition">
+          💻 Coding
+        </div>
+      </div>
+
+      <textarea rows="6" placeholder="Describe yourself, interests, goals, and experience..."
+        class="w-full p-4 rounded-lg bg-white/20 focus:outline-none focus:ring-2 focus:ring-yellow-400"></textarea>
+
+    
+      <label for="popup" class="inline-block cursor-pointer px-6 py-3 bg-yellow-400 text-black rounded-lg hover:bg-blue-700 hover:text-white transition">
+        View Summary
+      </label>
+    </section>
+
+  </div>
+
+  
+  <input type="checkbox" id="popup" class="peer hidden">
+
+  <div class="fixed inset-0 bg-black/70 hidden peer-checked:flex items-center justify-center ">
+    <div class="bg-white text-black rounded-2xl w-11/12 max-w-xl p-8 relative ">
+      <h3 class="text-2xl font-bold mb-4 ">Profile Summary </h3>
+      <p class="text-gray-700 leading-relaxed">
+        This person is highly motivated, skilled in technology, passionate about learning,
+        and enjoys creative and technical hobbies. Strong academic background with practical experience.
+      </p>
+
+      <label for="popup"
+        class="absolute top-3 right-4 text-2xl cursor-pointer text-red-500">&times;</label>
+    </div>
+  </div>
+
+</body>
+
+</html>
